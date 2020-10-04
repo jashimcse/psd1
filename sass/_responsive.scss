@@ -1,0 +1,377 @@
+/* ==========================================================================
+   > Responsive
+   ========================================================================== */
+
+/* ==========================================================================
+	#Media - Tablets in landscape
+========================================================================== */
+@media (max-width: 1024px) {
+  .nav>li>a {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .ht-slider-wrap {
+    .slick-prev {
+      left: -22px;
+    }
+    .slick-next {
+      right: -11px;
+    }
+  }
+  .inner-contact {
+    margin-top: -75px;
+    margin-bottom: 20px;
+  }
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in portrait
+========================================================================== */
+@media (min-width: 768px) and (max-width: 979px)   {
+  .navbar-header {
+    float: none;
+    text-align: center;
+  }
+  .header .navbar-brand {
+    float: none;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+  }
+  .custom-navbar-right.navbar-right {
+    float: none !important;
+  }
+  .sector-bar-item  {
+    h3 {
+      font-size: 20px;
+      min-height: 62px;
+    }
+  }
+  .htsit-right.pull-right {
+    float: none !important;
+    margin: 10px auto 0;
+    clear: left;
+  }
+  .ht-slider-wrap .slick-prev {
+    left: -10px;
+    z-index: 999;
+  }
+
+  .testimonial-testimonials, .bottom-section {
+    .htsit-right.pull-right, .pull-right.testimonial-htsit {
+      float: right !important;
+      clear: none;
+    }
+    .htsi-txt, .testimonial-text {
+      min-height: 0;
+    }
+  }
+  .mid-section {
+    width: 100%;
+  }
+
+
+}
+@media (max-width: 979px) {
+  .home-carousel {
+    .cc-inner {
+      h1 {
+        margin-top: 25px;
+        font-size: 55px;
+        line-height: 1.2;
+      }
+    }
+  }
+  .cc-middle {
+    font-size: 35px;
+    padding: 35px 0;
+  }
+
+  .sector-bar-item  {
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .hsb-item {
+    margin-bottom: 25px;
+  }
+  .home-advice-top li {
+    padding-left: 52px;
+  }
+  .map-img {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .mrp-item {
+    margin-bottom: 25px;
+  }
+  .ht-slider-wrap .slick-next {
+    right: -8px;
+    z-index: 999;
+  }
+  .about-work .single-brand {
+    margin-bottom: 25px;
+  }
+
+}
+
+
+
+
+/* ==========================================================================
+	#Tablets
+========================================================================== */
+@media (max-width: 767px) {
+  .custom-navbar-right #navbar {
+    float: none;
+  }
+  .navbar-toggle {
+    border-color: transparent;
+    padding: 0;
+    margin: 0 15px 0 0;
+    .icon-bar {
+      background: $dark_green;
+      height: 5px;
+      margin-top: 4px;
+      width: 50px;
+    }
+    .icon-bar+.icon-bar {
+      margin-top: 7px;
+    }
+
+  }
+  .header .navbar {
+    padding: 20px 0;
+  }
+  .header .navbar-brand img {
+    max-height: 45px;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  .nav>li {
+    border-bottom: 1px solid $dark_blue;
+  }
+  .home-carousel .cc-inner h1 {
+    font-size: 36px;
+  }
+  .cc-middle {
+    font-size: 24px;
+    padding: 28px 15px;
+  }
+  .sector-bar {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .sector-bar-item {
+    margin-bottom: 20px;
+  }
+  .ht-slider-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+    .slick-dots {
+      button {
+        border-radius: 50%;
+        background: $light_gray;
+        width: 12px;
+        height: 12px;
+      }
+
+      .slick-active button {
+        background: $dark_green;
+      }
+    }
+    .slick-arrow {
+      display: none !important;
+    }
+  }
+  .home-testimonials, .tree-testimonial {
+    padding: 40px 0;
+  }
+  .home-recent-posts h2 {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .footer-top-lower {
+    .col-sm-4 {
+      padding-top: 15px;
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+
+  .ht-slider-item {
+    margin: 20px 0 0 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:nth-child(n+4){
+      display: none;
+    }
+  }
+  .sector-bar-item-council h3 {
+    white-space: nowrap;
+  }
+  .home-advice-top {
+    padding-bottom: 60px;
+    li {
+      width: auto;
+      display: block;
+      padding-left: 65px;
+      margin-left: 35px;
+      span {
+        max-width: 100%;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .home-advice-btm {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+  }
+  .home-survey-map h3 {
+    font-size: 30px;
+  }
+  .hsm-btm {
+    .custom-btn2 {
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      min-width: 200px;
+      i {
+        margin-left: 20px;
+        width: 45px;
+        height: 50px;
+        font-size: 45px;
+      }
+
+    }
+    .navbar-phone {
+      padding-top: 25px;
+    }
+  }
+
+  .home-testimonials h2, .tree-testimonial h2 {
+    margin-bottom: 35px;
+  }
+  .footer-social {
+    padding-top: 40px;
+    li {
+      line-height: 40px;
+      i {
+        font-size: 38px;
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .footer h3 {
+    margin-bottom: 15px;
+  }
+
+
+  .footer-top, .home-survey-box, .home-survey-map, .home-recent-posts {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .about-banner, .testimonial-banner, .tree-planning-banner {
+    min-height: 230px;
+  }
+  .about-banner .about-heading, .testimonial-banner .about-heading, .tree-planning-banner .about-heading {
+    padding: 35px 0;
+  }
+  .about-banner .about-heading h2, .testimonial-banner .about-heading h2, .tree-planning-banner .about-heading h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+  .about-banner .about-heading p, .testimonial-banner .about-heading p, .tree-planning-banner .about-heading p {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .about-us-title {
+    font-size: 30px;
+    padding: 35px 0 28px;
+  }
+  .about-comon-heading {
+    text-align: center;
+    font-size: 20px;
+    .fp {
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .about-what-we-do {
+    padding-bottom: 40px;
+  }
+  .about-work {
+    .single-brand {
+      min-height: 220px;
+      line-height: 220px;
+      max-width: 100%;
+      margin-bottom: 20px;
+
+    }
+  }
+
+.about-office {
+  .row {
+    margin: 0;
+  }
+}
+  .single-image {
+    margin: 0 0 15px;
+    width: 100%;
+  }
+  .survey-sector-bar {
+    .col-md-4 .row {
+      margin: 0;
+    }
+    .np-txt span, .np-txt strong {
+      font-weight: normal;
+    }
+    .mid-section .phn-colour {
+      margin-top: 10px;
+    }
+  }
+  .hsm-btm .navbar-phone .np-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    margin-top: -5px;
+  }
+  .inner-contact .service-contact-head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+/* ==========================================================================
+	#Phones
+========================================================================== */
+@media only screen and (max-width: 479px) {
+
+}
+
+/* ==========================================================================
+	#Retina
+========================================================================== */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+}

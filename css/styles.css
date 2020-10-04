@@ -1,0 +1,404 @@
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Italic.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Italic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Italic.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Italic.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Italic.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Italic.svg#NeueHaasUnicaPro-Italic") format("svg"); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-UltLightIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-UltLightIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-UltLightIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-UltLightIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-UltLightIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-UltLightIt.svg#NeueHaasUnicaPro-UltLightIt") format("svg"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-BlackIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-BlackIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-BlackIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-BlackIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-BlackIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-BlackIt.svg#NeueHaasUnicaPro-BlackIt") format("svg"); font-weight: 900; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Bold.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Bold.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Bold.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Bold.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Bold.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Bold.svg#NeueHaasUnicaPro-Bold") format("svg"); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Regular.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Regular.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Regular.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Regular.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Regular.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Regular.svg#NeueHaasUnicaPro-Regular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro XBlack'; src: url("../css/fonts/NeueHaasUnicaPro-XBlackIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-XBlackIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-XBlackIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-XBlackIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-XBlackIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-XBlackIt.svg#NeueHaasUnicaPro-XBlackIt") format("svg"); font-weight: 900; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Black.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Black.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Black.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Black.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Black.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Black.svg#NeueHaasUnicaPro-Black") format("svg"); font-weight: 900; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Medium.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Medium.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Medium.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Medium.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Medium.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Medium.svg#NeueHaasUnicaPro-Medium") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-MediumIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-MediumIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-MediumIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-MediumIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-MediumIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-MediumIt.svg#NeueHaasUnicaPro-MediumIt") format("svg"); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro XBlack'; src: url("../css/fonts/NeueHaasUnicaPro-XBlack.eot"); src: url("../css/fonts/NeueHaasUnicaPro-XBlack.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-XBlack.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-XBlack.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-XBlack.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-XBlack.svg#NeueHaasUnicaPro-XBlack") format("svg"); font-weight: 900; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-UltraLight.eot"); src: url("../css/fonts/NeueHaasUnicaPro-UltraLight.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-UltraLight.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-UltraLight.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-UltraLight.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-UltraLight.svg#NeueHaasUnicaPro-UltraLight") format("svg"); font-weight: 200; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-BoldItalic.eot"); src: url("../css/fonts/NeueHaasUnicaPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-BoldItalic.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-BoldItalic.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-BoldItalic.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-BoldItalic.svg#NeueHaasUnicaPro-BoldItalic") format("svg"); font-weight: bold; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Thin.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Thin.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Thin.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Thin.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Thin.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Thin.svg#NeueHaasUnicaPro-Thin") format("svg"); font-weight: 100; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-HeavyIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-HeavyIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-HeavyIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-HeavyIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-HeavyIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-HeavyIt.svg#NeueHaasUnicaPro-HeavyIt") format("svg"); font-weight: 900; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-LightIt.eot"); src: url("../css/fonts/NeueHaasUnicaPro-LightIt.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-LightIt.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-LightIt.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-LightIt.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-LightIt.svg#NeueHaasUnicaPro-LightIt") format("svg"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-ThinItalic.eot"); src: url("../css/fonts/NeueHaasUnicaPro-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-ThinItalic.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-ThinItalic.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-ThinItalic.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-ThinItalic.svg#NeueHaasUnicaPro-ThinItalic") format("svg"); font-weight: 100; font-style: italic; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Light.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Light.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Light.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Light.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Light.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Light.svg#NeueHaasUnicaPro-Light") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Neue Haas Unica Pro'; src: url("../css/fonts/NeueHaasUnicaPro-Heavy.eot"); src: url("../css/fonts/NeueHaasUnicaPro-Heavy.eot?#iefix") format("embedded-opentype"), url("../css/fonts/NeueHaasUnicaPro-Heavy.woff2") format("woff2"), url("../css/fonts/NeueHaasUnicaPro-Heavy.woff") format("woff"), url("../css/fonts/NeueHaasUnicaPro-Heavy.ttf") format("truetype"), url("../css/fonts/NeueHaasUnicaPro-Heavy.svg#NeueHaasUnicaPro-Heavy") format("svg"); font-weight: 900; font-style: normal; }
+.after, .hsb-top:after { position: absolute; content: " "; display: block; }
+
+.custom-btn, .custom-btn2, .inner-contact .card-body .sub-btn { border-radius: 5px; color: #ffffff; font-size: 26px; background: #6fc15f; padding: 20px 30px; border: solid #6fc15f 1px; text-decoration: none; text-transform: uppercase; line-height: 30px; min-width: 260px; font-weight: 300; transition: 400ms; font-family: "Neue Haas Unica Pro", "Helvetica Neue", sans-serif; }
+.custom-btn:hover, .custom-btn2:hover, .inner-contact .card-body .sub-btn:hover { background: #39401f; border-color: #39401f; color: #ffffff; }
+
+.custom-btn2 { font-size: 16px; background: #39401f; line-height: 40px; height: 40px; padding: 0 0 0 15px; border: none; min-width: 160px; text-align: left; text-transform: none; }
+.custom-btn2 span { float: left; }
+.custom-btn2 i { height: 40px; width: 35px; text-align: center; margin-left: 15px; background: #6fc15f; border-radius: 0 5px 5px 0; float: right; font-size: 38px; }
+.custom-btn2:hover { background: #6fc15f; border-color: transparent; }
+
+.bar-section, .sector-bar-item, .hsb-item, .survey-area { background: #ffffff; position: relative; padding: 40px 20px 30px; border-radius: 0 0 6px 6px; border: 1px solid #e3e3e3; }
+
+.after, .hsb-top:after { display: block; position: absolute; content: " "; left: 0; top: 0; width: 100%; height: 100%; }
+
+.padding-bottom-50 { padding-bottom: 80px; }
+
+.about-us-title { padding-top: 90px; text-align: center; padding-bottom: 60px; font-size: 65px; }
+
+.m-bottom-0 { margin-bottom: 0; }
+
+.center-element, .single-image h3 { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+
+/* --------------------------------------------------------------------------
+	>Base
+-------------------------------------------------------------------------- */
+html, body, .wrapper { height: 100%; }
+
+html { overflow-y: scroll; }
+
+body { min-width: 100%; background: #f8f8f8; font-family: "Neue Haas Unica Pro", "Helvetica Neue", sans-serif; font-size: 22px; line-height: 1.247; color: #313b20; }
+
+a { cursor: pointer; color: inherit; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+img { border: 0; vertical-align: middle; max-width: 100%; }
+
+ul, ol { list-style: none; padding: 0; margin: 0; }
+
+h1, h2 { color: inherit; font-family: "Neue Haas Unica Pro", "Helvetica Neue", sans-serif; font-size: 69px; font-weight: 300; }
+
+h2 { color: #6fc15f; color: red; font-size: 60px; margin: 0 0 10px; font-weight: 400; }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #188ace !important; }
+
+::-moz-placeholder { /* Firefox 19+ */ color: #188ace !important; }
+
+:-ms-input-placeholder { /* IE 10+ */ color: #188ace !important; }
+
+:-moz-placeholder { /* Firefox 18- */ color: #188ace !important; }
+
+.header { background: #ffffff; }
+.header .navbar-brand { height: auto; padding: 0 15px; }
+.header .navbar-brand img { max-height: 65px; }
+.header .navbar { padding: 30px 0; margin: 0; }
+.header .custom-navbar-right #navbar { padding: 10px 0; }
+.header .navbar-nav > li > a, .header .navbar-nav > li > a:hover, .header .navbar-nav > li > a:focus { font-size: 18px; font-family: "Neue Haas Unica Pro", "Helvetica Neue", sans-serif; background: none; border: none; }
+.header .navbar-nav > li > a:hover, .header .navbar-nav > li > a:focus { color: #188ace; }
+
+.custom-navbar-right #navbar { float: left; }
+
+.navbar-phone { float: right; padding-top: 10px; padding-left: 30px; }
+.navbar-phone > div { display: inline-block; }
+
+.np-icon { width: 45px; height: 45px; text-align: center; line-height: 45px; background: #39401f; color: #6fc15f; font-size: 35px; border-radius: 6px; border: 1px solid #171f00; margin-right: 15px; }
+
+.np-txt { font-size: 16px; text-transform: uppercase; color: #2d2d2d; font-weight: 500; }
+.np-txt span, .np-txt strong { display: block; }
+.np-txt strong { color: #6fc15f; font-size: 24px; }
+
+.home-carousel .item { background: no-repeat center center transparent; background-size: cover; min-height: 500px; }
+.home-carousel .item > img { opacity: 0; visibility: hidden; }
+.home-carousel .carousel-caption { color: #ffffff; bottom: 0; top: 0; left: 0; right: 0; }
+.home-carousel .cc-inner { max-width: 1030px; margin: 0 auto; }
+.home-carousel .cc-inner h1 { margin: 70px auto 0; line-height: 90px; max-width: 830px; }
+
+.cc-middle { font-size: 45px; padding: 60px 0; }
+
+.carousel-indicators li { width: 12px; height: 12px; margin: 0; background-color: #fff; }
+.carousel-indicators li.active { background: #6fc15f; border-color: #6fc15f; }
+
+.sector-bar { padding-top: 65px; padding-bottom: 65px; }
+
+.sector-bar-item:after { position: absolute; left: 0; top: 0; width: 100%; background: #39401f; height: 20px; display: block; content: " "; }
+.sector-bar-item h3 { font-weight: bold; color: #6fc15f; font-size: 23px; margin: 0 0 25px; line-height: 26px; padding: 10px 0 0; background: no-repeat left center transparent; vertical-align: middle; }
+.sector-bar-item h3 img { float: left; margin-right: 15px; margin-top: -7px; }
+.sector-bar-item p { margin: 0 0 10px; min-height: 115px; font-size: 20px; }
+
+.home-survey-box { padding-top: 80px; padding-bottom: 150px; }
+
+.hsb-item { border-radius: 6px; padding: 0 0 25px; }
+
+.hsb-top { position: relative; background: url("../css/images/survey1.png") no-repeat 0 0 transparent; background-size: cover; height: 145px; padding-top: 55px; }
+.hsb-top:after { background: #c4da56; opacity: 0.75; z-index: 5; }
+.hsb-top h3 { margin: 0; text-align: center; font-weight: bold; font-size: 34px; color: #ffffff; position: relative; z-index: 10; }
+
+.eco-survey .hsb-top { background-image: url("../css/images/survey2.png"); }
+
+.measured-survey .hsb-top { background-image: url("../css/images/survey3.png"); }
+
+.hsb-txt { padding: 10px 10px 30px; }
+.hsb-txt ul { margin: 0; }
+.hsb-txt ul li { border-top: 1px solid #e3e3e3; padding: 10px 0 10px 30px; background: url("../css/images/leaf-icon.png") no-repeat 3px center transparent; background-size: 15px auto; color: #39401f; font-size: 16px; }
+.hsb-txt ul li:first-child { border-top: none; padding-top: 5px; letter-spacing: -1px; }
+
+.home-advice-top { background: #188ace; min-height: 180px; padding-top: 60px; }
+.home-advice-top li { float: left; padding-left: 60px; width: 20%; font-size: 18px; color: #ffffff; line-height: 30px; background: url("../css/images/tick.png") no-repeat left center transparent; background-size: 45px auto; min-height: 60px; }
+.home-advice-top li span { max-width: 105px; display: inline-block; }
+
+.home-advice-btm { background: #2e9cdd; color: #ffffff; font-size: 40px; text-align: center; min-height: 170px; padding-top: 65px; }
+
+.home-survey-map { padding: 80px 0; background: #ffffff; }
+.home-survey-map h3 { font-size: 48px; margin: 0 0 40px; }
+.home-survey-map p { margin: 0 0 30px; }
+
+.hsm-btm .navbar-phone { padding-top: 0; }
+.hsm-btm .navbar-phone .np-icon { width: 40px; height: 40px; color: #ffffff; font-size: 26px; background: #6fc15f; border-color: #6fc15f; line-height: 38px; }
+.hsm-btm .navbar-phone .np-txt { margin-top: -8px; }
+.hsm-btm .navbar-phone .np-txt span { font-size: 18px; text-transform: none; }
+.hsm-btm .navbar-phone .np-txt strong { font-size: 25px; font-weight: 300; }
+
+.home-testimonials, .tree-testimonial { padding: 75px 0 100px; }
+.home-testimonials h2, .tree-testimonial h2 { margin-bottom: 75px; }
+
+.ht-slider-item { border: 1px solid #e3e3e3; background: #ffffff; padding-bottom: 18px; margin: 8px; }
+
+.htsi-top, .testimonial-htsi-top { background: #6fc15f; color: #ffffff; min-height: 145px; padding: 25px 18px; }
+
+.htsit-left h4 { font-size: 34px; font-weight: 600; margin: 0 0 15px; }
+.htsit-left h5 { font-size: inherit; font-weight: 300; }
+
+.htsit-right, .testimonial-htsit { border-radius: 50%; width: 85px; height: 85px; line-height: 85px; text-align: center; background: #ffffff; margin-top: 5px; }
+.htsit-right img, .testimonial-htsit img { max-width: 45px; display: inline-block; }
+
+.htsi-txt, .testimonial-text { padding: 25px 18px 15px; min-height: 210px; }
+
+.htsi-stars { padding-left: 18px; }
+.htsi-stars img { display: inline-block; }
+
+.ht-slider-wrap .slick-arrow { font-weight: bold; left: -100px; }
+.ht-slider-wrap .slick-arrow:before { font-family: FontAwesome; content: "\f104"; color: #bababa; font-size: 100px; }
+.ht-slider-wrap .slick-next { left: auto; right: -100px; }
+.ht-slider-wrap .slick-next:before { content: "\f105"; }
+
+.home-recent-posts { padding-top: 100px; padding-bottom: 100px; }
+.home-recent-posts h2 { margin: 0 0 85px; }
+
+.mrp-item { background: #ffffff; border-radius: 5px; text-align: center; padding-bottom: 30px; }
+
+.mrp-img { border-radius: 5px 5px 0 0; min-height: 250px; overflow: hidden; }
+.mrp-img img { width: 100%; height: auto; }
+
+.mrp-txt { padding: 30px 30px 20px; }
+.mrp-txt h3 { color: #6fc15f; font-size: 34px; margin: 0 0 20px; }
+
+.footer { background: #0f6ca4; color: #ffffff; font-size: 17px; font-weight: 300; }
+.footer h3 { margin: 0 0 25px; font-size: 20px; }
+
+.footer-top { padding: 85px 0 120px; background: #188ace; }
+
+.cat-list li { margin: 0 0 16px; }
+.cat-list li a:hover { color: inherit; text-decoration: underline; }
+
+.footer-contact h6 { font-size: 30px; font-weight: 300; margin: 0 0 10px; }
+
+.footer-social li { clear: both; padding: 5px 0; }
+.footer-social li i { float: left; font-size: 20px; margin-right: 8px; }
+.footer-social li a:hover { text-decoration: none; color: inherit; }
+.footer-social li a:hover span { text-decoration: underline; }
+
+.footer-top-lower { padding-top: 45px; }
+
+.footer-bottom { min-height: 115px; padding-top: 48px; font-size: 15px; color: #ffffff; }
+
+.copy-right-txt { float: left; }
+
+.designed-by { float: right; }
+
+.testimonial-testimonials .ht-slider-item { margin: 0 0 20px; }
+
+/* ========================================================================== > about-banner ========================================================================== */
+.about-banner, .testimonial-banner, .tree-planning-banner, .survey-banner { position: relative; background: url("../css/images/about-image.jpg") no-repeat center center transparent; background-size: cover; min-height: 638px; }
+.about-banner .about-heading, .testimonial-banner .about-heading, .tree-planning-banner .about-heading, .survey-banner .about-heading { text-align: center; color: #ffffff; padding: 163px 0 144px 0; }
+.about-banner .about-heading h2, .testimonial-banner .about-heading h2, .tree-planning-banner .about-heading h2, .survey-banner .about-heading h2 { color: #ffffff; font-size: 65px; }
+.about-banner .about-heading p, .testimonial-banner .about-heading p, .tree-planning-banner .about-heading p, .survey-banner .about-heading p { font-size: 25px; font-weight: bold; line-height: 1.5; }
+
+/* ========================================================================== > about-what-we-do ========================================================================== */
+.about-what-we-do { background-color: #ffffff; padding-bottom: 70px; }
+
+/* ========================================================================== > about-work ========================================================================== */
+.about-work { background-color: #f8f8f8; padding-bottom: 80px; }
+.about-work .single-brand { max-width: 260px; min-height: 200px; background: #fff; border: 1px solid #D8D8D8; text-align: center; line-height: 200px; }
+.about-work .single-brand img { max-width: 180px; }
+
+/* ========================================================================== > about-office ========================================================================== */
+.about-office { background-color: #ffffff; padding-bottom: 70px; }
+
+.single-image { position: relative; width: 31%; margin: 2%; float: left; margin-right: 0; margin-bottom: 0; text-align: center; transition: 2s; color: #ffffff; z-index: 10; }
+.single-image:after { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: #2d2d2d; display: block; content: " "; opacity: 0.5; }
+.single-image img { width: 100%; }
+.single-image h3 { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: #ffffff; z-index: 99; }
+
+/* ========================================================================== > testimonials ========================================================================== */
+.testimonial-banner { min-height: 638px; background-image: url("../css/images/testimonial.jpg"); background-size: cover; }
+
+.testimonial-htsi-top { background-color: #ffffff; color: #000000; }
+.testimonial-htsi-top h5 { font-weight: bold; font-size: 16px; line-height: 1.5; font-family: "Neue Haas Unica Pro", "Helvetica Neue", sans-serif; }
+
+.testimonial-htsit { background-color: #6fc15f; color: #000000; padding-bottom: 40px; }
+
+.testimonial-star { padding: 30px 0; }
+
+.testimonial-text { color: #000000; }
+
+.testimonial-color { color: #6fc15f; }
+
+.text-testimonial { font-weight: bold; }
+
+/* ========================================================================== > tree-planning-page ========================================================================== */
+.tree-planning-banner { min-height: 475px; background-image: url("../css/images/Tree_&_Planning_Banner.jpg"); background-size: cover; }
+
+.tree-banner { width: 650px; text-align: left; max-width: 95%; }
+
+/* ========================================================================== > tree-get-free ========================================================================== */
+.tree-get-free { background-color: transparent; }
+.tree-get-free .document { padding: 40px 10px; }
+.tree-get-free .document p { margin-bottom: 20px; }
+
+.get-free-quote { padding: 40px 10px; }
+
+.single-icon { padding: 50px 0; text-align: center; }
+.single-icon img { width: 25%; height: auto; }
+.single-icon img h3 { text-transform: capitalize; font-weight: bold; }
+
+/* ========================================================================== > tree-test-timonial ========================================================================== */
+.tree-testimonial { background-color: #F3F3F3; padding: 75px 0 67px; }
+
+.custom-btn-pure { padding-top: 50px; }
+
+/* ========================================================================== > Responsive ========================================================================== */
+.inner-contact { margin-top: -350px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.14); position: relative; background-color: #ffffff; padding-bottom: 2px; }
+.inner-contact .service-contact-head { padding: 20px 30px 35px; background-size: 100% auto; background-color: #188ace; color: #ffffff; border: none; }
+.inner-contact .service-contact-head h3 { margin: 0; }
+.inner-contact .card-body { margin: 30px 20px 50px; outline: none; text-decoration: none; }
+.inner-contact .card-body .input-group { width: 100%; }
+.inner-contact .card-body .input-group .form-control { font-size: 15px; }
+.inner-contact .card-body .buton-class { padding-top: 12px; }
+.inner-contact .card-body .sub-btn { cursor: pointer; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); font-size: 15px; width: 100%; padding: 10px 10px 10px 10px; background-color: #BED73B; text-transform: capitalize; }
+.inner-contact .card-body > p { text-align: center; font-size: 15px; font-weight: 300; }
+.inner-contact .form-group { border-radius: 4px; border: 1px solid #999; }
+.inner-contact .form-group .custom-form-control { border: none; outline: none; box-shadow: none; background: transparent; font-size: 15px; font-weight: 300; }
+
+.checkboxes label { display: block; float: left; padding-right: 10px; padding-left: 22px; text-indent: -22px; }
+
+.checkboxes input { vertical-align: middle; }
+
+.checkboxes label span { vertical-align: middle; font-size: 15px; font-weight: 300; }
+
+/* ========================================================================== > survey-banner ========================================================================== */
+.survey-banner { background-image: url("../css/images/Tree_Surveys_Banner.jpg"); }
+
+/* ========================================================================== > survey-area (Main) ========================================================================== */
+.survey-area:after { background: #2e9cdd; }
+.survey-area h4 { font-weight: bold; color: #6fc15f; font-size: 20px; margin: 0 0 25px; line-height: 26px; padding: 10px 0 0; background: no-repeat left center transparent; vertical-align: middle; min-height: 62px; }
+.survey-area h4 img { float: left; margin-right: 15px; margin-top: -7px; }
+.survey-area p { margin: 0 0 10px; min-height: 115px; font-size: 16px; }
+
+.margin-bottom { margin-bottom: 20px; }
+
+/* ========================================================================== > survey-area (Right Side) ========================================================================== */
+.top-section { padding: 20px 30px; background-color: #e3e3e3; border-top-right-radius: 5px; border-top-left-radius: 5px; }
+.top-section .list-area li { border-bottom: solid #39401f 2px; padding: 20px 0; }
+.top-section .list-area li:last-child { border-bottom: none; padding-bottom: 0; }
+
+.mid-section { padding: 20px 30px; background-color: #6fc15f; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; }
+.mid-section .phn-colour { background: #ffffff; color: #6fc15f; border: 1px solid #6fc15f; }
+.mid-section .phn-txt { color: #ffffff; margin-left: 50px; display: block; }
+.mid-section .phn-txt strong { color: #ffffff; }
+
+.bottom-section { margin: 125px 0 20px 0; border-radius: 5px; }
+.bottom-section .change-col { background: #2e9cdd; color: #ffffff; }
+
+/* ========================================================================== > Case-study ========================================================================== */
+.case-study { float: left; }
+
+.mrp-txt { text-align: left; padding: 30px 20px; }
+
+/* ========================================================================== > ========================================================================== */
+/* ========================================================================== > Responsive ========================================================================== */
+/* ==========================================================================
+	#Media - Tablets in landscape
+========================================================================== */
+@media (max-width: 1024px) { .nav > li > a { padding-left: 8px; padding-right: 8px; }
+  .ht-slider-wrap .slick-prev { left: -22px; }
+  .ht-slider-wrap .slick-next { right: -11px; }
+  .inner-contact { margin-top: -75px; margin-bottom: 20px; } }
+/* ==========================================================================
+	#Media - Tablets in portrait
+========================================================================== */
+@media (min-width: 768px) and (max-width: 979px) { .navbar-header { float: none; text-align: center; }
+  .header .navbar-brand { float: none; padding: 0; display: inline-block; margin: 0; }
+  .custom-navbar-right.navbar-right { float: none !important; }
+  .sector-bar-item h3 { font-size: 20px; min-height: 62px; }
+  .htsit-right.pull-right, .pull-right.testimonial-htsit { float: none !important; margin: 10px auto 0; clear: left; }
+  .ht-slider-wrap .slick-prev { left: -10px; z-index: 999; }
+  .testimonial-testimonials .htsit-right.pull-right, .testimonial-testimonials .pull-right.testimonial-htsit, .testimonial-testimonials .pull-right.testimonial-htsit, .bottom-section .htsit-right.pull-right, .bottom-section .pull-right.testimonial-htsit, .bottom-section .pull-right.testimonial-htsit { float: right !important; clear: none; }
+  .testimonial-testimonials .htsi-txt, .testimonial-testimonials .testimonial-text, .testimonial-testimonials .testimonial-text, .bottom-section .htsi-txt, .bottom-section .testimonial-text, .bottom-section .testimonial-text { min-height: 0; }
+  .mid-section { width: 100%; } }
+@media (max-width: 979px) { .home-carousel .cc-inner h1 { margin-top: 25px; font-size: 55px; line-height: 1.2; }
+  .cc-middle { font-size: 35px; padding: 35px 0; }
+  .sector-bar-item p { margin-bottom: 20px; }
+  .hsb-item { margin-bottom: 25px; }
+  .home-advice-top li { padding-left: 52px; }
+  .map-img { text-align: center; padding-top: 20px; }
+  .mrp-item { margin-bottom: 25px; }
+  .ht-slider-wrap .slick-next { right: -8px; z-index: 999; }
+  .about-work .single-brand { margin-bottom: 25px; } }
+/* ==========================================================================
+	#Tablets
+========================================================================== */
+@media (max-width: 767px) { .custom-navbar-right #navbar { float: none; }
+  .navbar-toggle { border-color: transparent; padding: 0; margin: 0 15px 0 0; }
+  .navbar-toggle .icon-bar { background: #39401f; height: 5px; margin-top: 4px; width: 50px; }
+  .navbar-toggle .icon-bar + .icon-bar { margin-top: 7px; }
+  .header .navbar { padding: 20px 0; }
+  .header .navbar-brand img { max-height: 45px; }
+  .navbar-nav { margin: 0; }
+  .nav > li { border-bottom: 1px solid #0f6ca4; }
+  .home-carousel .cc-inner h1 { font-size: 36px; }
+  .cc-middle { font-size: 24px; padding: 28px 15px; }
+  .sector-bar { padding-top: 35px; padding-bottom: 35px; }
+  .sector-bar-item { margin-bottom: 20px; }
+  .ht-slider-wrap { padding-left: 15px; padding-right: 15px; }
+  .ht-slider-wrap .slick-dots button { border-radius: 50%; background: #e3e3e3; width: 12px; height: 12px; }
+  .ht-slider-wrap .slick-dots .slick-active button { background: #39401f; }
+  .ht-slider-wrap .slick-arrow { display: none !important; }
+  .home-testimonials, .tree-testimonial, .tree-testimonial { padding: 40px 0; }
+  .home-recent-posts h2 { margin-bottom: 40px; }
+  h2 { font-size: 30px; }
+  .footer-top-lower .col-sm-4 { padding-top: 15px; }
+  .footer-top-lower .col-sm-4:first-child { padding-top: 0; }
+  .ht-slider-item { margin: 20px 0 0 0; }
+  .ht-slider-item:first-child { margin-top: 0; }
+  .ht-slider-item:nth-child(n+4) { display: none; }
+  .sector-bar-item-council h3 { white-space: nowrap; }
+  .home-advice-top { padding-bottom: 60px; }
+  .home-advice-top li { width: auto; display: block; padding-left: 65px; margin-left: 35px; }
+  .home-advice-top li span { max-width: 100%; margin-top: 15px; }
+  .home-advice-btm { padding-top: 30px; padding-bottom: 30px; font-size: 36px; }
+  .home-survey-map h3 { font-size: 30px; }
+  .hsm-btm .custom-btn2 { height: 50px; line-height: 50px; font-size: 20px; min-width: 200px; }
+  .hsm-btm .custom-btn2 i { margin-left: 20px; width: 45px; height: 50px; font-size: 45px; }
+  .hsm-btm .navbar-phone { padding-top: 25px; }
+  .home-testimonials h2, .tree-testimonial h2, .tree-testimonial h2 { margin-bottom: 35px; }
+  .footer-social { padding-top: 40px; }
+  .footer-social li { line-height: 40px; }
+  .footer-social li i { font-size: 38px; margin-right: 12px; }
+  .footer h3 { margin-bottom: 15px; }
+  .footer-top, .home-survey-box, .home-survey-map, .home-recent-posts { padding-top: 45px; padding-bottom: 45px; }
+  .about-banner, .testimonial-banner, .tree-planning-banner, .survey-banner, .testimonial-banner, .tree-planning-banner { min-height: 230px; }
+  .about-banner .about-heading, .testimonial-banner .about-heading, .tree-planning-banner .about-heading, .survey-banner .about-heading, .testimonial-banner .about-heading, .tree-planning-banner .about-heading { padding: 35px 0; }
+  .about-banner .about-heading h2, .testimonial-banner .about-heading h2, .tree-planning-banner .about-heading h2, .survey-banner .about-heading h2, .testimonial-banner .about-heading h2, .tree-planning-banner .about-heading h2 { font-size: 32px; padding-bottom: 15px; margin: 0; }
+  .about-banner .about-heading p, .testimonial-banner .about-heading p, .tree-planning-banner .about-heading p, .survey-banner .about-heading p, .testimonial-banner .about-heading p, .tree-planning-banner .about-heading p { font-weight: normal; font-size: 16px; }
+  .about-us-title { font-size: 30px; padding: 35px 0 28px; }
+  .about-comon-heading { text-align: center; font-size: 20px; }
+  .about-comon-heading .fp { font-weight: bold; }
+  .about-comon-heading p { margin-bottom: 20px; }
+  .about-what-we-do { padding-bottom: 40px; }
+  .about-work .single-brand { min-height: 220px; line-height: 220px; max-width: 100%; margin-bottom: 20px; }
+  .about-office .row { margin: 0; }
+  .single-image { margin: 0 0 15px; width: 100%; }
+  .survey-sector-bar .col-md-4 .row { margin: 0; }
+  .survey-sector-bar .np-txt span, .survey-sector-bar .np-txt strong { font-weight: normal; }
+  .survey-sector-bar .mid-section .phn-colour { margin-top: 10px; }
+  .hsm-btm .navbar-phone .np-icon { width: 50px; height: 50px; line-height: 48px; margin-top: -5px; }
+  .inner-contact .service-contact-head { padding-top: 20px; padding-bottom: 20px; }
+  .inner-contact .service-contact-head h3 { margin: 0; } }
+/* ==========================================================================
+	#Phones
+========================================================================== */
+/* ==========================================================================
+	#Retina
+========================================================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) { /* Retina-specific stuff here */ }
+
+/*# sourceMappingURL=styles.css.map */
